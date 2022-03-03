@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(212, 209, 209);
+    margin: 5px;
+    padding: 5px;
+}
+
+h1 {
+    background-color: rgba(250, 140, 176, 0.884);
+    height: 50px;
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid  rgba(53, 52, 52, 0.795);
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 2px 2px  9px rgba(0, 0, 0, 0.829);
+}
+
+nav {
+    background-color: rgb(67, 105, 100);
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(53, 52, 52, 0.795);
+    padding: 5px;
+    margin: 10px 2px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.753);
+}
+h2 {
+    background-color: rgb(202, 166, 118);
+    padding-left: 25px;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(209, 206, 206);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border: 3px solid rgb(67, 122, 11);
+    margin: 5px 2px;
+}
+
+aside {
+    display: inline;
+    background-color: rgb(87, 203, 238);
+    color:rgb(8, 8, 8);
+    font-size: large;
+    padding: 5px;
+}
+
+article {
+    background-color: rgb(91, 235, 163);
+    color: black;
+    padding: 10px 10px;
+    margin: 10px 2px;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 5px;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+.direito {
+
+    font-size: large;
+    background-color: darkorange;
+    width: 200px;
+    height: 50px;
+    border: 3px solid black;
+    padding: 8px;
+    margin: auto;
+    box-shadow: 2px 2px 7px black;
+}
+
+footer > p {
+    margin: 0px;
+}

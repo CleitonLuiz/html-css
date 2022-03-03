@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador. </p>
+    <picture>
+        <source media="(max-width: 500px)" srcset="Imagens/fotop3.png" type="image/png">
+        <source media="(max-width: 700px)" srcset="Imagens/fotop2.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="Imagens/fotom.png" type="image/png">
+        <img src="Imagens/fotog.png" alt="imagem flexivel">
+    </picture>
+    <h2>Descrição do que foi feito acima</h2>
+    <p>A tag picture serve para inserirmos e modfcarmos a imagem principal, que fic dentro da tag.
+       A tag sorce media type  foi usada para mudarmos o tamanho da imagem a ser exibida de acordo com o tamanho do navegador, as imagens foram redimensionadas previamente.
+       As imagens menores ficam sempre acima da principal, em ordem de tamnho, usar tamnhos depx de acordo com o redimensionamento feito, cuidado loara mudar de min para max dentro da tag soruce media.
+    </p>
+
+    <h1>Inserindo Áudio</h1>
+    <audio src="midia/modern-attemp.mp3" controls></audio>
+    <p>Outra maneira abaixo</p>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+    </audio>
+
+    <p>Se seu navegador não conseguir reproduzir o áudio <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio.mpeg" target="_blank" rel="external">Clique aqui</a></p></audio>
+    <p>Algumas coisas não deram ceto aqui, tal como baixar o audio quando clica.
+    A parte do constrols e  autoplay ficou um pouco confusa sobre a ordem de usar.
+    </p>
+    
+</body>
+</html>

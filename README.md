@@ -1,6 +1,5 @@
 # html-css
  Curso html-css
  
-
-
- teste teste
+ Aprendendo a gerenciar repositórios no GitHub
+ 

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+thead {
+    background-color: rgba(241, 50, 50, 0.623);
+    color: white;
+}    
+
+tfoot {
+    background-color: gray;
+    color: white;
+}
+
+.numero {
+    font-size: bold;
+    text-align: right;
+
+}

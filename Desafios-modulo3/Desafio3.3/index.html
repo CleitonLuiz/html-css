@@ -22,7 +22,7 @@
 
     td { 
         border: 1px solid black;
-        padding: 17px 10px;
+        padding: 14px 10px;
         text-align: center;
     }
 
@@ -35,6 +35,22 @@
         text-align: left;
     }
 
+    .cArea {
+        background-color: rgba(172, 18, 18, 0.397);
+    }
+
+    .cGrupo {
+        background-color: rgba(247, 247, 28, 0.445);
+    }
+
+    .cDisciplina {
+        background-color: rgba(46, 46, 179, 0.493);
+    }
+
+    .cMedia {
+        background-color: rgba(23, 151, 23, 0.39);
+    }
+
 
 </style>
 
@@ -42,6 +58,15 @@
 <body>
 
     <table>
+        <colgroup>
+            <col class="cArea">
+            <col class="cDisciplina">
+            <col class="cGrupo" span="2">
+            <col class="cMedia">   
+        </colgroup>
+
+
+
         <thead>
             <tr>
                 <th rowspan="2" scope="col">Area</th>

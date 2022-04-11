@@ -3,4 +3,3 @@
  
  Aprendendo a gerenciar repositórios no GitHub
  
- <a href="https://cleitonluiz.github.io/html-css/desafio-modulo2/desafio2/android.html" target="_blank"> Executar  o desafio do módulo 2.</a>
